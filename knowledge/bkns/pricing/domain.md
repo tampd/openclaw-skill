@@ -1,42 +1,79 @@
-# Tên Miền — Bảng Giá
+# Tên Miền (Domain) — Bảng Giá BKNS
 
-> Nguồn: https://www.bkns.vn/ten-mien/bang-gia-ten-mien.html | Cập nhật: 2026-03-12
+> Nguồn: bkns.vn/ten-mien | Cập nhật: 2026-03-12
+> Có hiệu lực từ 01/09/2025
+> **Giá chưa bao gồm VAT. Phí cài đặt: Miễn phí. Transfer về BKNS: Miễn phí.**
 
-## Tên Miền Việt Nam
+---
 
-| Đuôi | Giá đăng ký/năm | Giá gia hạn/năm | Ghi chú |
-|------|-----------------|-----------------|---------|
-| .vn | Xem web | Xem web | Phổ biến nhất VN |
-| .com.vn | 350,000đ (KM từ 550K) | Xem web | DN tại Việt Nam |
-| .id.vn | **0đ** (miễn phí) | Xem web | Thương hiệu cá nhân |
-| .net.vn | Xem web | Xem web | |
-| .org.vn | Xem web | Xem web | |
-| .edu.vn | Xem web | Xem web | Giáo dục |
-| .gov.vn | Xem web | Xem web | Chính phủ |
+## 1. Tên miền Việt Nam (.vn)
 
-## Tên Miền Quốc Tế
+| Đuôi | Đăng ký mới | Gia hạn/năm |
+|---|---|---|
+| .vn | 450,000đ | 450,000đ |
+| .com.vn / .net.vn / .biz.vn / .ai.vn | 350,000đ | 350,000đ |
+| .org.vn / .gov.vn / .edu.vn / .health.vn / .ac.vn / .int.vn | 150,000đ | 150,000đ |
+| .info.vn / .pro.vn / .id.vn | 60,000đ | 60,000đ |
+| .name.vn / .io.vn | 30,000đ | 30,000đ |
+| Tên miền Tiếng Việt | 30,000đ | 30,000đ |
 
-| Đuôi | Giá đăng ký/năm | Ghi chú |
-|------|-----------------|---------|
-| .com | 25,000đ (KM từ 459K) | Phổ biến nhất thế giới |
-| .net | Xem web | |
-| .org | Xem web | |
-| .info | Xem web | |
-| .biz | Xem web | |
+> Transfer tên miền .vn về BKNS: **Miễn phí**
 
-> **Lưu ý**: Giá KM (khuyến mại) có thể thay đổi. Kiểm tra giá mới nhất tại bkns.vn.
+---
 
-## Dịch vụ đi kèm tên miền
-- Miễn phí DNS quản lý
-- Bảo vệ tên miền cấp cao (WHOIS Privacy)
-- Hỗ trợ chuyển nhượng, gia hạn 24/7
-- Thủ tục đăng ký nhanh chóng
+## 2. Tên miền Quốc tế — Phổ biến
 
-## Lưu ý khi chọn tên miền
-1. Ngắn gọn, dễ nhớ
-2. Liên quan đến thương hiệu
-3. Ưu tiên .com hoặc .vn
-4. Kiểm tra tính khả dụng trước khi đăng ký
+| Đuôi | Đăng ký mới | Gia hạn/năm | Transfer |
+|---|---|---|---|
+| **.com** | **25,000đ** 🔥 (KM, gốc 540K) | 370,000đ | 370,000đ |
+| **.net** | **159,000đ** 🔥 (KM, gốc 640K) | 439,000đ | 439,000đ |
+| .org | 365,000đ | 535,000đ | 535,000đ |
+| .biz | 590,000đ | 740,000đ | 740,000đ |
+| .asia | 440,000đ | 545,000đ | 545,000đ |
+| .us | 340,000đ | 380,000đ | 380,000đ |
+| .de | 340,000đ | 340,000đ | 340,000đ |
+| .cn | 710,000đ | 710,000đ | 710,000đ |
+| .id | 575,000đ | 575,000đ | 575,000đ |
 
-## Link đăng ký
-https://www.bkns.vn/ten-mien/dang-ky-ten-mien.html
+---
+
+## 3. Tên miền Quốc tế — Khuyến mãi năm đầu
+
+> ⚠️ Giá KM chỉ áp dụng cho đăng ký mới năm đầu tiên. Gia hạn theo giá gốc.
+
+| Đuôi | ĐK mới (KM) | Gia hạn/năm | Chênh lệch |
+|---|---|---|---|
+| **.cloud** | **0đ** 🔥 (miễn phí) | 675,000đ | — |
+| **.com** | **25,000đ** 🔥 | 370,000đ | +345K |
+| **.shop** | **50,000đ** | 1,015,000đ | +965K |
+| **.top** | **85,000đ** | 440,000đ | +355K |
+| **.live** | **85,000đ** | 1,045,000đ | +960K |
+| **.pro** | **135,000đ** | 1,115,000đ | +980K |
+| **.net** | **159,000đ** 🔥 | 439,000đ | +280K |
+| **.info** | **170,000đ** | 980,000đ | +810K |
+| **.vip** | **170,000đ** | 710,000đ | +540K |
+| **.mobi** | **220,000đ** | 945,000đ | +725K |
+| **.co** | **440,000đ** | 1,165,000đ | +725K |
+
+---
+
+## 4. Tên miền Quốc tế — Giá không đổi (ĐK = Gia hạn)
+
+| Đuôi | Giá/năm |
+|---|---|
+| .xyz | 490,000đ |
+| .me | 745,000đ |
+| .ws | 1,075,000đ (ĐK 505K, GH 1.075M) |
+| .site | 1,080,000đ |
+| .space | 1,015,000đ |
+| .online | 1,250,000đ |
+| .fun | 1,250,000đ |
+| .tech | 1,855,000đ |
+
+---
+
+## Ghi chú
+- 🔥 = Đang khuyến mãi (giá năm đầu)
+- Tất cả tên miền quốc tế: **phí cài đặt miễn phí**
+- Transfer về BKNS: miễn phí (cả VN và quốc tế)
+- Đăng ký tại: https://www.bkns.vn/ten-mien/dang-ky-ten-mien.html
