@@ -1,0 +1,16 @@
+# Sensitive files
+wp_credentials.txt
+*.pyc
+__pycache__/
+
+# Temp files
+temp_*.md
+*.tmp
+*.swp
+
+# OpenClaw internal
+.openclaw/
+
+# OS
+.DS_Store
+Thumbs.db
