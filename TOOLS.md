@@ -42,10 +42,11 @@
 - Khi user nói "3h chiều" = 15:00 GMT+7 = 08:00 UTC
 
 ## AI Models
-- **Mặc định**: `gemini-2.5-flash` (nhanh, rẻ — dùng cho hầu hết tasks)
-- **Có sẵn**: `gemini-2.5-pro` (mạnh hơn — dùng khi cần viết bài dài, research phức tạp)
+- **Mặc định**: `openai-codex/gpt-5.4` (ChatGPT Team, thinking model — thông minh nhất)
+- **Có sẵn**: `openai-codex/gpt-4o`, `google-vertex/gemini-2.5-flash`, `google-vertex/gemini-2.5-pro`
+- **Auth**: OAuth Codex (gptinfo@bkns.vn) — token tự refresh
 - Model được cấu hình trong `/root/openclaw/.openclaw/openclaw.json`
-- Hiện tại KHÔNG tự đổi model giữa chừng được — phải thay đổi config và restart
+- Khi ChatGPT hết quota → đổi primary sang `google-vertex/gemini-2.5-flash` rồi restart
 
 ## Telegram
 - **Sếp Telegram ID**: `882968821`
