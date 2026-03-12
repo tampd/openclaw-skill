@@ -1,13 +1,21 @@
 import requests
 import json
 import base64
+import os
 
-# Thông tin tài khoản và mật khẩu (thay bằng username và application password)
-USERNAME = "admin"
-PASSWORD = "tRy5 Bx9U 3sHl 92A7 ayNs ZxfH"
+# Thông tin tài khoản (từ .env hoặc environment variables)
+USERNAME = os.environ.get("WP_USERNAME", "admin")
+PASSWORD = os.environ.get("WP_APP_PASSWORD", "")
+if not PASSWORD:
+    cred_file = os.path.join(os.path.dirname(__file__), "wp_credentials.txt")
+    if os.path.exists(cred_file):
+        with open(cred_file) as f:
+            for line in f:
+                if "WP_APP_PASSWORD" in line:
+                    PASSWORD = line.split("=", 1)[1].strip().strip('"')
 
 # Đường dẫn API của WordPress
-API_ENDPOINT = "https://blog.chaiko.info/wp-json/wp/v2/posts"
+API_ENDPOINT = os.environ.get("WP_API_URL", "https://blog.chaiko.info/wp-json/wp/v2/posts")
 
 # Hàm để tạo header xác thực cơ bản
 def get_basic_auth_header(username, password):

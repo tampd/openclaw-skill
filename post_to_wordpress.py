@@ -2,13 +2,25 @@
 import requests
 import json
 import os
+import base64
 
 # WordPress API endpoint
-api_url = "https://blog.chaiko.info/wp-json/wp/v2/posts"
+api_url = os.environ.get("WP_API_URL", "https://blog.chaiko.info/wp-json/wp/v2/posts")
 
-# Authentication credentials
-username = "admin"
-password = "tRy5 Bx9U 3sHl 92A7 ayNs ZxfH"
+# Authentication credentials (from .env or environment)
+username = os.environ.get("WP_USERNAME", "admin")
+password = os.environ.get("WP_APP_PASSWORD", "")
+if not password:
+    # Fallback: read from credentials file
+    cred_file = os.path.join(os.path.dirname(__file__), "wp_credentials.txt")
+    if os.path.exists(cred_file):
+        with open(cred_file) as f:
+            for line in f:
+                if "WP_APP_PASSWORD" in line:
+                    password = line.split("=", 1)[1].strip().strip('"')
+    if not password:
+        print("Error: WP_APP_PASSWORD not set. Set env var or check wp_credentials.txt")
+        exit(1)
 
 # Read content from the Markdown file
 file_path = "agentic_ai_2026.md"

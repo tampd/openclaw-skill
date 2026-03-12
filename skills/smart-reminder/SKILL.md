@@ -150,3 +150,57 @@ User nhắn bằng tiếng Việt tự nhiên:
 Sau khi nhắc xong reminder one-time:
 1. Cập nhật `active.json` → status: "done"
 2. Xóa cron job đã hoàn thành khỏi `jobs.json`
+
+---
+
+## Nhắc Nhở Lặp Lại (Recurring)
+
+### Cú pháp tự nhiên:
+- "Nhắc tôi mỗi ngày lúc 9h sáng uống vitamin"
+- "Mỗi thứ 2 nhắc họp team"
+- "Ngày 1 hàng tháng nhắc đóng tiền server"
+
+### Mapping cron schedule:
+| User nói | Cron (UTC) |
+|---|---|
+| "mỗi ngày X giờ" | `MIN HOUR * * *` |
+| "mỗi thứ N" | `MIN HOUR * * DOW` |
+| "ngày X hàng tháng" | `MIN HOUR X * *` |
+
+### Recurring reminder format trong jobs.json:
+```json
+{
+  "id": "rec-001",
+  "schedule": "0 2 * * *",
+  "prompt": "⏰ Nhắc nhở lặp: [NỘI DUNG]. Gửi tin cho Sếp.",
+  "channel": "telegram",
+  "target": "telegram:882968821",
+  "enabled": true
+}
+```
+
+## Pre-Alert cho Deadline
+
+Khi tạo reminder có deadline quan trọng, TỰ ĐỘNG tạo thêm pre-alert:
+
+| Deadline | Pre-alert 1 | Pre-alert 2 |
+|---|---|---|
+| > 7 ngày nữa | T-1 ngày | T-1 giờ |
+| 1-7 ngày nữa | T-1 giờ | — |
+| < 1 ngày | Chỉ nhắc đúng giờ | — |
+
+Pre-alert dùng cron job riêng với id: `pre-[id]-1d` hoặc `pre-[id]-1h`
+
+## Tổng Hợp Lịch Ngày Mai
+
+Khi được hỏi "ngày mai có gì?" hoặc vào mỗi tối (trong daily report):
+1. Đọc `active.json` + `jobs.json`
+2. Lọc reminders cho ngày mai
+3. Format:
+```
+📅 **Lịch ngày mai ([date]):**
+├── 08:00 — Họp team
+├── 14:00 — Deadline nộp proposal
+└── 15:00 — Gọi KH ABC
+```
+

@@ -1,16 +1,29 @@
-# Sensitive files
+# ===========================
+# Git Ignore — OpenClaw Workspace
+# ===========================
+
+# Secrets & credentials
+.env
+*.env
 wp_credentials.txt
-*.pyc
+api/
+*.json.bak*
+
+# OpenClaw internal
+.openclaw/
+data/
+
+# Python cache
 __pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Contract outputs (generated files)
+contracts/output/
 
 # Temp files
 temp_*.md
 *.tmp
-*.swp
-
-# OpenClaw internal
-.openclaw/
-
-# OS
-.DS_Store
-Thumbs.db

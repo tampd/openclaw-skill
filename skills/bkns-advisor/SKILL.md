@@ -133,3 +133,40 @@ Khi đã tư vấn xong dịch vụ chính, **luôn gợi ý thêm**:
 - ✅ Nhắc khuyến mãi nếu có liên quan
 - ❌ KHÔNG tự đặt giá nếu file không có
 - ❌ KHÔNG quảng cáo quá lời — trung thực với thông tin
+
+---
+
+## Memory Integration (Bộ nhớ KH)
+
+### Sau mỗi cuộc tư vấn, GHI vào `workspace/memory/clients.md`:
+```markdown
+### [Ngày] — [Tên KH / mô tả]
+- Dịch vụ: [VPS/Hosting/Domain/SSL/...]
+- Gói đề xuất: [Tên gói + giá]
+- Kết quả: [Đã chốt / Đang cân nhắc / Hỏi thêm]
+- Cross-sell đã gợi ý: [Domain + SSL / ...]
+```
+
+### Trước khi tư vấn, ĐỌC `workspace/memory/clients.md`:
+- Nếu KH đã hỏi trước đó → nhắc lại context: "Lần trước bạn quan tâm đến [X]..."
+- Nếu KH quay lại → ưu tiên gói đã đề xuất trước đó
+
+## Lệnh /quote — Báo Giá Nhanh
+
+### Cú pháp: `/quote [tên gói]`
+Ví dụ: `/quote VM04`, `/quote BKCP03`, `/quote RapidSSL`
+
+### Quy trình:
+1. Tra giá từ file knowledge tương ứng
+2. Format nhanh:
+```
+💰 **Báo giá: [Tên gói]**
+├── 1 tháng: XXXđ
+├── 12 tháng: XXXđ (-X%) ⭐
+└── 36 tháng: XXXđ (-X%) 💰
+
+🔗 Đặt hàng: bkns.vn
+📞 Hotline: 1900.6740
+```
+3. Gợi ý thêm dịch vụ liên quan (cross-sell)
+

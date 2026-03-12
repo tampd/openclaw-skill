@@ -97,3 +97,48 @@ Sau khi ghi file report xong:
 - KHÔNG gửi nội dung nhạy cảm (mật khẩu, token) trong report
 - Giữ report ngắn gọn, dưới 50 dòng
 - Nếu không có hoạt động gì, vẫn viết report "Ngày yên tĩnh ✅"
+
+---
+
+## Bước 5: Self-Improvement Review (TỰ CẢI THIỆN)
+
+> ⚠️ Phần này chạy SAU KHI viết report. Mục đích: Tôm tự học và cải thiện.
+
+### 5.1. Review Bài Học
+```bash
+cat /root/openclaw/workspace/memory/lessons.md
+```
+- Kiểm tra: Có pattern lỗi nào lặp lại ≥3 lần?
+- Nếu có → Viết rule mới vào cuối `BOOT.md` (phần "Nguyên tắc Vàng")
+- Ghi lại: "Đã thêm rule mới: [mô tả]" vào report
+
+### 5.2. Review Memory Files
+```bash
+# Kiểm tra kích thước memory files
+wc -l /root/openclaw/workspace/memory/*.md
+
+# Nếu clients.md > 200 dòng → archive entries cũ > 30 ngày
+# Nếu todo.md có task quá hạn → flag cho Sếp
+```
+
+### 5.3. Review Knowledge Currency
+```bash
+# Kiểm tra knowledge files cũ > 60 ngày
+find /root/openclaw/workspace/knowledge/ -name "*.md" -mtime +60 -type f 2>/dev/null
+```
+- Nếu có file outdate → ghi vào report: "⚠️ Knowledge file [X] chưa cập nhật > 60 ngày"
+- Đề xuất cho Sếp: "Cần review lại giá/thông tin file [X]"
+
+### 5.4. Đề Xuất Cải Thiện
+Cuối report, thêm mục:
+```markdown
+## 🔄 Self-Improvement Notes
+- **Pattern học được**: [Nếu có pattern mới]
+- **Rule mới thêm**: [Nếu đã thêm rule vào BOOT.md]
+- **Knowledge outdate**: [Danh sách file cần update]
+- **Đề xuất cho Sếp**: [Ý tưởng cải thiện workflow]
+```
+
+### 5.5. Cập Nhật Latest Memory
+Sau khi hoàn thành report, cập nhật `memory/latest.md` với tóm tắt ngày hôm nay để session tiếp theo có context.
+
