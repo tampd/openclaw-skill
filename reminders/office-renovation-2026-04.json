@@ -1,0 +1,129 @@
+{
+  "title": "Lịch dự kiến cải tạo văn phòng",
+  "created_at_utc": "2026-03-12T14:38:58.221100Z",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "note": "Một số mốc trong tin nhắn gốc bị dính chữ/thiếu dấu câu; 26/4 có ghi chú chồng giữa nghỉ Giỗ Tổ và đi dây điện, cần xác nhận lại nếu muốn đồng bộ chính xác lên Google Calendar.",
+  "events": [
+    {
+      "id": "office-2026-04-18",
+      "title": "Làm lễ xin chuyển bàn thờ, sửa văn phòng; dọn đồ vận chuyển về nhà hoặc chuyển kho",
+      "start_vn": "2026-04-18T08:00:00+07:00",
+      "type": "all-day-plan",
+      "start_utc": "2026-04-18T01:00:00Z",
+      "prealert_vn": "2026-04-17T08:00:00+07:00",
+      "prealert_utc": "2026-04-17T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    },
+    {
+      "id": "office-2026-04-22",
+      "title": "Toàn nhân viên làm việc online; bên nội thất thi công phá dỡ đồ cũ",
+      "start_vn": "2026-04-22T08:00:00+07:00",
+      "type": "all-day-plan",
+      "start_utc": "2026-04-22T01:00:00Z",
+      "prealert_vn": "2026-04-21T08:00:00+07:00",
+      "prealert_utc": "2026-04-21T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    },
+    {
+      "id": "office-2026-04-26",
+      "title": "Dự kiến đi dây điện ở vách nano; đồng thời ghi chú nghỉ Giỗ Tổ theo kế hoạch nhắn",
+      "start_vn": "2026-04-26T08:00:00+07:00",
+      "type": "all-day-plan",
+      "start_utc": "2026-04-26T01:00:00Z",
+      "prealert_vn": "2026-04-25T08:00:00+07:00",
+      "prealert_utc": "2026-04-25T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    },
+    {
+      "id": "office-2026-04-27",
+      "title": "Lắp đặt bàn làm việc; BKNS phối hợp đi dây điện, tổng đài, dây mạng",
+      "start_vn": "2026-04-27T08:00:00+07:00",
+      "type": "all-day-plan",
+      "start_utc": "2026-04-27T01:00:00Z",
+      "prealert_vn": "2026-04-26T08:00:00+07:00",
+      "prealert_utc": "2026-04-26T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    },
+    {
+      "id": "office-2026-04-28",
+      "title": "Làm việc online tại nhà",
+      "start_vn": "2026-04-28T08:00:00+07:00",
+      "type": "all-day-plan",
+      "start_utc": "2026-04-28T01:00:00Z",
+      "prealert_vn": "2026-04-27T08:00:00+07:00",
+      "prealert_utc": "2026-04-27T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    },
+    {
+      "id": "office-2026-04-29",
+      "title": "Làm việc online tại nhà",
+      "start_vn": "2026-04-29T08:00:00+07:00",
+      "type": "all-day-plan",
+      "start_utc": "2026-04-29T01:00:00Z",
+      "prealert_vn": "2026-04-28T08:00:00+07:00",
+      "prealert_utc": "2026-04-28T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    },
+    {
+      "id": "office-2026-04-30",
+      "title": "Bên thi công nghỉ lễ 30/4",
+      "start_vn": "2026-04-30T08:00:00+07:00",
+      "type": "holiday-note",
+      "start_utc": "2026-04-30T01:00:00Z",
+      "prealert_vn": "2026-04-29T08:00:00+07:00",
+      "prealert_utc": "2026-04-29T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    },
+    {
+      "id": "office-2026-05-01",
+      "title": "Bên thi công nghỉ lễ 1/5",
+      "start_vn": "2026-05-01T08:00:00+07:00",
+      "type": "holiday-note",
+      "start_utc": "2026-05-01T01:00:00Z",
+      "prealert_vn": "2026-04-30T08:00:00+07:00",
+      "prealert_utc": "2026-04-30T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    },
+    {
+      "id": "office-2026-05-02",
+      "title": "BKNS cử nhân viên lên dọn văn phòng để kịp đi làm lại",
+      "start_vn": "2026-05-02T08:00:00+07:00",
+      "type": "all-day-plan",
+      "start_utc": "2026-05-02T01:00:00Z",
+      "prealert_vn": "2026-05-01T08:00:00+07:00",
+      "prealert_utc": "2026-05-01T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    },
+    {
+      "id": "office-2026-05-03",
+      "title": "BKNS tiếp tục dọn văn phòng hoàn thiện để kịp đi làm lại",
+      "start_vn": "2026-05-03T08:00:00+07:00",
+      "type": "all-day-plan",
+      "start_utc": "2026-05-03T01:00:00Z",
+      "prealert_vn": "2026-05-02T08:00:00+07:00",
+      "prealert_utc": "2026-05-02T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    },
+    {
+      "id": "office-2026-05-04",
+      "title": "Đi làm lại tại văn phòng",
+      "start_vn": "2026-05-04T08:00:00+07:00",
+      "type": "return-to-office",
+      "start_utc": "2026-05-04T01:00:00Z",
+      "prealert_vn": "2026-05-03T08:00:00+07:00",
+      "prealert_utc": "2026-05-03T01:00:00Z",
+      "status": "active",
+      "source": "telegram-user"
+    }
+  ]
+}
