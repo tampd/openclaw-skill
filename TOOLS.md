@@ -21,10 +21,12 @@
 - Tạo cron jobs
 - Gọi API bằng `curl`
 
-### Không có (hạn chế):
-- ❌ **Trình duyệt web** — không thể mở trang web trực tiếp
-- Thay vào đó dùng `curl` để lấy nội dung HTML/API
-- Ví dụ: `curl -s https://example.com | head -100`
+### Không có trình duyệt (nhưng có scripts nâng cao):
+- ❌ **Trình duyệt web** — không thể mở browser trực tiếp
+- ✅ **Thay thế**: Dùng Python scripts trong `scripts/`:
+  - `python3 scripts/web_search.py "query"` — tìm kiếm web (DuckDuckGo)
+  - `python3 scripts/web_fetch.py "URL"` — đọc & trích nội dung trang web
+  - `curl -sL URL | python3 -m json.tool` — cho API/JSON endpoints
 
 ### Cần hỏi trước:
 - Xóa file bên ngoài workspace
