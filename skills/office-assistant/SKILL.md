@@ -232,6 +232,39 @@ cat /root/openclaw/workspace/memory/todo.md
 
 ---
 
+## 8. Tạo PDF Chuyên Nghiệp
+
+### Khi user nói: "tạo PDF", "xuất PDF", "báo giá PDF", "report PDF"
+
+**Setup (1 lần):**
+```bash
+npm install -g ai-pdf-builder
+```
+
+**Sử dụng:**
+```bash
+# Tạo PDF từ nội dung markdown
+npx ai-pdf-builder generate report ./content.md -o output.pdf --company "BKNS"
+
+# Tạo báo giá PDF
+npx ai-pdf-builder generate proposal ./bao-gia.md -o bao-gia.pdf --company "BKNS JSC"
+
+# AI tạo nội dung + PDF
+npx ai-pdf-builder ai memo "Báo cáo tháng 3/2026" -o report.pdf --company "BKNS"
+
+# Tóm tắt PDF
+npx ai-pdf-builder summarize ./long-doc.pdf -o summary.pdf --pdf
+```
+
+**Document types**: `whitepaper`, `memo`, `agreement`, `report`, `proposal`, `nda`
+
+**Kết hợp:**
+- Sau khi tạo báo giá Markdown → xuất PDF cho KH
+- Meeting minutes → PDF cho archive
+- Hợp đồng (contract-writer) → PDF bản chính thức
+
+---
+
 ## Self-Learning
 
 Sau mỗi task văn phòng:
@@ -245,3 +278,4 @@ Sau mỗi task văn phòng:
 - ✅ Output phù hợp Telegram (dưới 30 dòng nếu có thể)
 - ✅ Luôn hỏi nếu thiếu thông tin — KHÔNG đoán
 - ❌ KHÔNG bịa giá, số liệu, thông tin liên hệ
+
