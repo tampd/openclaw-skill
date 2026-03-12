@@ -19,7 +19,12 @@
 | Server vật lý, Colocation, Quản trị | `pricing/server-colocation.md` |
 | Phần mềm bản quyền (cPanel, DA, Plesk...) | `pricing/software.md` |
 | Dịch vụ khác (Meeting, VPN, Backup, DTI) | `pricing/other-services.md` |
+| **SSL, chứng chỉ bảo mật, HTTPS** | `pricing/ssl.md` |
+| **Khuyến mãi, giảm giá, promotion** | `promotions.md` |
 | Câu hỏi thường gặp | `faq/general.md` |
+| **So sánh chi tiết giữa các dịch vụ** | `faq/comparison-guide.md` |
+| **Tư vấn bán hàng, nên chọn gì, combo** | `faq/sales-scenarios.md` |
+| **Gói combo, trọn bộ, tính giá ước tính** | `faq/combo-packages.md` |
 
 ## Tổng Quan Dịch Vụ
 
@@ -31,3 +36,4 @@
 | **Tên miền** | .vn, .com.vn, .com, .id.vn, quốc tế | 0đ (.id.vn) |
 | **Server** | Thuê chỗ đặt, Quản trị trọn gói | 1.5M/tháng |
 | **Phần mềm** | DirectAdmin, cPanel, CloudLinux, Plesk... | 585K/tháng |
+| **SSL** | DV, OV, EV, Code Signing (35 loại) | 215K/năm |

@@ -26,13 +26,24 @@
 - **Network port**: 10Gbps
 
 ## Liên hệ & Hỗ trợ
-- **Hotline**: Xem tại bkns.vn
+- **Tổng đài 24/7**: 1900 63 68 09
+- **Tư vấn dịch vụ (miễn phí)**: 1800 646 884
+- **Email**: info@bkns.vn
+- **Email phản hồi**: gopy@bkns.vn
 - **Zalo OA**: Có hệ thống Zalo Official Account
-- **Portal hỗ trợ**: https://my.bkns.net
+- **Portal khách hàng**: https://my.bkns.net
 - **Chính sách hoàn tiền**: 100% nếu không hài lòng
 - **Dùng thử miễn phí**: 7 ngày (một số dịch vụ)
 
+## Văn phòng
+- **Hà Nội**: Tầng 5, Tòa nhà 169, Nguyễn Ngọc Vũ, P. Trung Hòa, Q. Cầu Giấy
+- **TP.HCM**: Phòng 503 Block A, Charmington LA Pointe, 181 Cao Thắng, P.12, Q.10
+- **Số ĐKKD**: 0104850587, cấp ngày 10/8/2010, tại Sở KHĐT Hà Nội
+- **Người phụ trách**: Giám đốc Thịnh Văn Hạnh
+
 ## Chương trình đặc biệt
+- **Tên miền miễn phí**: .id.vn (cá nhân 18-23 tuổi) + .biz.vn (DN mới) — 2 năm miễn phí kèm hosting + email + website
 - **Affiliate**: Chương trình tiếp thị liên kết
-- **Khuyến mại**: Thường xuyên có ưu đãi theo mùa
+- **Khuyến mại**: Thường xuyên có ưu đãi theo mùa (xem `promotions.md`)
 - **SLA**: Cam kết chất lượng dịch vụ rõ ràng
+

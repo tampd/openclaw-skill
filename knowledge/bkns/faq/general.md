@@ -58,4 +58,4 @@ A:
 A: Tại https://www.bkns.vn/ten-mien/dang-ky-ten-mien.html hoặc portal my.bkns.net
 
 **Q: Tên miền .id.vn miễn phí thật không?**
-A: Đúng, BKNS đang miễn phí tên miền .id.vn cho xây dựng thương hiệu cá nhân.
+A: Miễn phí 2 năm (đăng ký + duy trì + hosting + email + website) **CHỈ cho công dân VN 18-23 tuổi**, xác thực eKYC. Ngoài đối tượng này: 60,000đ/năm. Tương tự, .biz.vn miễn phí 2 năm cho DN có ĐKKD ≤1 năm.

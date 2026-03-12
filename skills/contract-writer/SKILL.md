@@ -118,6 +118,31 @@ Tôm sẽ:
 3. Chạy script thay thế
 4. Gửi file DOCX qua Telegram
 
+## Tự động tra giá từ Knowledge Base
+
+Khi Sếp chỉ nêu tên gói (ví dụ: "VPS VM04", "Hosting BKCP03"), Tôm có thể tự tra giá:
+
+```bash
+# Tra giá VPS VM04
+cat /root/openclaw/workspace/knowledge/bkns/pricing/cloud-vps-vm.md | grep -A1 "VM04"
+
+# Tra giá Hosting
+cat /root/openclaw/workspace/knowledge/bkns/pricing/hosting.md | grep -A1 "[TÊN_GÓI]"
+
+# Tra giá SSL
+cat /root/openclaw/workspace/knowledge/bkns/pricing/ssl.md | grep -A1 "[TÊN_SSL]"
+```
+
+Sau đó tự điền vào trường giá trị hợp đồng. **Luôn xác nhận lại giá với Sếp trước khi xuất file.**
+
+## Mapping loại hợp đồng cho VPS
+
+Hiện chưa có template DOCX riêng cho VPS. Giải pháp:
+- **VPS** → Dùng `HD_hosting.docx` (mục dịch vụ ghi rõ "Cloud VPS [tên gói]")
+- **Email** → Dùng `HD_hosting.docx` (mục dịch vụ ghi rõ "Email Hosting [gói]")
+- **SSL** → Dùng `HD_SSL.docx`
+- **Website** → Dùng `HD_website.docx`
+
 ## Lưu ý AN TOÀN
 - **KHÔNG SỬA** file trong `/root/docs/HD_Temp/` — đây là template gốc
 - Luôn output ra `/root/openclaw/workspace/contracts/output/`
