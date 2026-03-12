@@ -1,21 +1,7 @@
-# Memory — Latest Session Context
+# Latest Context
 
-> File này tự động cập nhật bởi session-memory hook khi `/reset` hoặc `/new`.
-> Tôm đọc file này đầu tiên khi bắt đầu session mới.
-
----
-
-## Session 2026-03-12
-
-### Công việc đã làm
-- Tạo skill sysadmin-expert (2,085 lines)
-- Nâng cấp web-researcher (Python scripts thay curl)
-- Nâng cấp bkns-advisor (thêm SSL, khuyến mãi, combo)
-- Nâng cấp contract-writer (auto price lookup)
-- Tạo 5 knowledge files BKNS mới
-- Tạo skill vcharge-advisor (1,406 lines)
-
-### Ghi chú
-- User timezone: GMT+7
-- Model: openai-codex/gpt-5.4 (OAuth)
-- OpenClaw 2026.3.8
+## 2026-03-12
+- Đã tạo báo cáo ngày `reports/2026-03-12.md`, trạng thái tổng thể 🟢.
+- VPS ổn định: RAM khoảng 22%, Disk 16%, load thấp.
+- Trong ngày đã xử lý tác vụ soạn hợp đồng hosting và gửi file DOCX cho khách.
+- Có một lần tra cứu giá tên miền `.net` từ BKNS chưa lấy được giá tự động qua `curl`.
