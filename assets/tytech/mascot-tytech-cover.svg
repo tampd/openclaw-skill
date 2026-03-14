@@ -1,0 +1,75 @@
+<svg width="1640" height="624" viewBox="0 0 1640 624" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1550" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.42" stop-color="#1C1E66"/>
+      <stop offset="1" stop-color="#00C7FF"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="240" y1="140" x2="1230" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A7F7FF"/>
+      <stop offset="1" stop-color="#36D7FF"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1640" height="624" rx="36" fill="url(#bg)"/>
+  <circle cx="235" cy="160" r="130" fill="#00D1FF" fill-opacity="0.18"/>
+  <circle cx="1420" cy="430" r="180" fill="#7C4DFF" fill-opacity="0.22"/>
+
+  <g opacity="0.12" stroke="white">
+    <path d="M0 118H1640"/>
+    <path d="M0 210H1640"/>
+    <path d="M0 302H1640"/>
+    <path d="M0 394H1640"/>
+    <path d="M0 486H1640"/>
+    <path d="M160 0V624"/>
+    <path d="M320 0V624"/>
+    <path d="M480 0V624"/>
+    <path d="M640 0V624"/>
+    <path d="M800 0V624"/>
+    <path d="M960 0V624"/>
+    <path d="M1120 0V624"/>
+    <path d="M1280 0V624"/>
+    <path d="M1440 0V624"/>
+  </g>
+
+  <g transform="translate(905 70)">
+    <g filter="url(#glow)">
+      <circle cx="118" cy="114" r="58" fill="#A6F7FF" fill-opacity="0.95"/>
+      <circle cx="282" cy="114" r="58" fill="#A6F7FF" fill-opacity="0.95"/>
+      <ellipse cx="200" cy="218" rx="138" ry="130" fill="#0E1830" stroke="url(#neon)" stroke-width="10"/>
+      <ellipse cx="151" cy="220" rx="15" ry="22" fill="#A6F7FF"/>
+      <ellipse cx="249" cy="220" rx="15" ry="22" fill="#A6F7FF"/>
+      <circle cx="151" cy="216" r="6" fill="#0E1830"/>
+      <circle cx="249" cy="216" r="6" fill="#0E1830"/>
+      <circle cx="200" cy="255" r="13" fill="#36D7FF"/>
+      <path d="M173 290C185 307 214 307 227 290" stroke="#A6F7FF" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <g stroke="#96EEFF" stroke-width="7" stroke-linecap="round">
+      <path d="M92 50C92 8 121 -22 158 -22C183 -22 201 -11 213 8"/>
+      <path d="M308 50C308 8 279 -22 242 -22C217 -22 199 -11 187 8"/>
+      <path d="M72 162H116"/>
+      <path d="M286 162H330"/>
+      <path d="M56 202H116"/>
+      <path d="M284 202H344"/>
+      <path d="M64 242H122"/>
+      <path d="M278 242H336"/>
+    </g>
+    <circle cx="364" cy="42" r="28" fill="#0E1830" stroke="#96EEFF" stroke-width="6"/>
+    <path d="M354 42H374" stroke="#96EEFF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M364 32V52" stroke="#96EEFF" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(210 150)">
+    <text x="0" y="0" fill="#F2FBFF" font-size="84" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Tý Tech</text>
+    <text x="0" y="68" fill="#B7EEFF" font-size="28" font-weight="600" font-family="DejaVu Sans, Arial, sans-serif">Chuột thông minh • AI • DevOps • Automation • IT Life</text>
+    <path d="M0 104H560" stroke="#78E9FF" stroke-opacity="0.8" stroke-width="4" stroke-linecap="round"/>
+    <text x="0" y="160" fill="#DDEEFF" font-size="26" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Một mascot đủ vui để nhớ, đủ tech để dùng lâu dài cho page, cover, poster và series nội dung.</text>
+  </g>
+</svg>
