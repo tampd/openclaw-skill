@@ -1,31 +1,76 @@
 # 📅 Content Calendar — Tý Tech
 
-## Tuần 11/03 - 16/03/2026
+## Tuần khởi động 14/03 - 20/03/2026
 
-> Page mới — tuần khởi động. Ưu tiên bài giới thiệu + establish tone.
+> Mục tiêu tuần 1: tạo giọng page, giữ nhịp đăng đều, kéo những comment đầu tiên, kiểm tra nội dung nào có tín hiệu tốt để nhân rộng.
 
-### Thứ 6 - 14/03 (Ngày kết nối API)
+## Định hướng vận hành
+- Tần suất mục tiêu: 2-3 bài/ngày, ưu tiên chất lượng và độ đều
+- Tông giọng: gần gũi, geeky, thực tế, có chút hài hước nghề IT
+- Trụ cột nội dung tuần này:
+  - 🤖 AI & Tech Trends
+  - 😂 IT Memes & Humor
+  - 💼 Tips/Kinh nghiệm thực chiến
+  - 🔥 Đời sống IT / góc nhìn nghề nghiệp
+- CTA ưu tiên: hỏi ngắn, dễ comment, không ép tương tác lộ liễu
+
+## Thứ 7 — 14/03
 | Slot | Pillar | Chủ đề | Status | Post ID |
 |---|---|---|---|---|
-| 🌙 Tối | 🤖 AI | Bài giới thiệu Tý Tech ra mắt | ✅ Posted | 1012410591957125_122099480103074170 |
+| 🌙 22h+ | 🚀 Launch | Bắt đầu hành trình build Tý Tech từ con số 0 | ✅ Posted | 1012410591957125_122099517981074170 |
 
-### Thứ 7 - 15/03
+## Chủ Nhật — 15/03
 | Slot | Pillar | Chủ đề | Status | Post ID |
 |---|---|---|---|---|
-| 🌅 7h30 | 🤖 AI | [Chờ soạn — trend AI hôm nay] | 📝 Draft | — |
-| ☀️ 12h00 | 😂 Meme | [Chờ soạn — meme IT weekend] | 📝 Draft | — |
-| 🌙 19h00 | 💼 Tips | [Chờ soạn — tips lập trình] | 📝 Draft | — |
+| 🌅 7h30 | 🤖 AI | 3 cách dân IT dùng AI thật sự hiệu quả mỗi ngày | 📝 Planned | — |
+| ☀️ 12h00 | 😂 Meme | Meme: bug không tự sinh ra, nó chỉ chọn đúng lúc để xuất hiện | 📝 Planned | — |
+| 🌙 19h30 | 💼 Tips | 5 thói quen nhỏ giúp dev bớt rối khi làm nhiều việc cùng lúc | 📝 Planned | — |
 
-### Chủ Nhật - 16/03
+## Thứ 2 — 16/03
 | Slot | Pillar | Chủ đề | Status | Post ID |
 |---|---|---|---|---|
-| 🌅 7h30 | 💼 Career | Chuẩn bị tuần mới | 📝 Draft | — |
-| ☀️ 12h00 | 😂 Meme | Sunday chill meme | 📝 Draft | — |
-| 🌙 19h00 | 🤖 AI | Preview trends tuần tới | 📝 Draft | — |
+| 🌅 7h45 | 🤖 Trend | Tin nhanh AI/tech đáng chú ý đầu tuần, viết lại theo góc nhìn dễ đọc | 📝 Planned | — |
+| ☀️ 12h15 | 😂 Humor | Monday meme: đi làm với 12 tab công việc và 3% pin não | 📝 Planned | — |
+| 🌙 20h00 | 🔥 Work-life | Có nên luôn online sau giờ làm? Góc nhìn thực tế của dân IT | 📝 Planned | — |
 
-## Thống kê tuần
-- Tổng bài đã đăng: 1/21
-- Pillar balance: 🤖 1 | 😂 0 | 💼 0 | 🔥 0
-- Page vừa mới ra mắt — bắt đầu tracking từ tuần sau
+## Thứ 3 — 17/03
+| Slot | Pillar | Chủ đề | Status | Post ID |
+|---|---|---|---|---|
+| 🌅 7h30 | 💼 Tools | Bộ tool tối giản nhưng mạnh cho dev/ops/automation | 📝 Planned | — |
+| ☀️ 12h00 | 😂 Meme | Meme: works on my machine — câu thần chú quốc dân | 📝 Planned | — |
+| 🌙 19h30 | 🤖 AI | AI sẽ không thay dev, nhưng sẽ thay cách dev làm việc | 📝 Planned | — |
 
-- 2026-03-14 16:21 UTC (23:21 GMT+7) — Facebook Tý Tech — Đăng bài public: "Bắt đầu hành trình build Tý Tech từ con số 0" — Post ID: 1012410591957125_122099517981074170
+## Thứ 4 — 18/03
+| Slot | Pillar | Chủ đề | Status | Post ID |
+|---|---|---|---|---|
+| 🌅 7h45 | 🤖 Trend | Tóm tắt một tin công nghệ đang nóng, thêm góc nhìn ứng dụng thực tế | 📝 Planned | — |
+| ☀️ 12h00 | 😂 Humor | Meme: deploy xong đứng hình nhìn dashboard | 📝 Planned | — |
+| 🌙 20h00 | 💼 Tips | Một checklist ngắn trước khi push production | 📝 Planned | — |
+
+## Thứ 5 — 19/03
+| Slot | Pillar | Chủ đề | Status | Post ID |
+|---|---|---|---|---|
+| 🌅 7h30 | 💼 Career | 3 kỹ năng ngoài code giúp dân IT tăng giá trị nhanh | 📝 Planned | — |
+| ☀️ 12h15 | 😂 Humor | Meme: họp xong nhiều task hơn trước khi họp | 📝 Planned | — |
+| 🌙 19h30 | 🔥 Work-life | Làm IT lâu năm học được gì về áp lực và sức bền | 📝 Planned | — |
+
+## Thứ 6 — 20/03
+| Slot | Pillar | Chủ đề | Status | Post ID |
+|---|---|---|---|---|
+| 🌅 7h45 | 🤖 AI | Tool AI nào đáng giữ, tool nào chỉ là hype? | 📝 Planned | — |
+| ☀️ 12h00 | 😂 Meme | Friday deploy meme — truyền thống đau thương nhưng vui | 📝 Planned | — |
+| 🌙 20h00 | 🔥 Community | Tổng kết tuần đầu của Tý Tech + hỏi audience muốn xem gì tiếp | 📝 Planned | — |
+
+## Nguyên tắc linh hoạt
+- Nếu có trend mạnh trong ngày: được quyền thay slot sáng/tối bằng bài trend phù hợp audience IT Việt Nam
+- Nếu bài nào đang có tín hiệu tốt: ưu tiên follow-up post cùng chủ đề trong 24-48h
+- Nếu một ngày có tín hiệu reach thấp: giảm số lượng, tăng chất lượng, không spam
+- Chỉ cross-post/link ngoài khi thật sự liên quan và có giá trị
+
+## Theo dõi & tương tác
+- Ưu tiên trả lời tất cả comment thật sớm, đặc biệt trong 1-3 giờ đầu sau khi đăng
+- Ghim các insight từ comment để tái sử dụng cho bài sau
+- Theo dõi người comment tích cực như một tệp khán giả sớm của page
+
+## Log đã đăng
+- 2026-03-14 16:22 UTC (23:22 GMT+7) — Facebook Tý Tech — Đăng bài public: "Bắt đầu hành trình build Tý Tech từ con số 0" — Post ID: 1012410591957125_122099517981074170
