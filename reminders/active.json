@@ -129,8 +129,9 @@
       "type": "one-time-message",
       "start_vn": "2026-03-14T15:13:00+07:00",
       "start_utc": "2026-03-14T08:13:00Z",
-      "status": "active",
-      "source": "telegram-user"
+      "status": "done",
+      "source": "telegram-user",
+      "sent_at_utc": "2026-03-14T08:17:00Z"
     }
   ]
 }
