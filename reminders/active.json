@@ -120,6 +120,17 @@
       "prealert_utc": "2026-05-03T01:00:00Z",
       "status": "active",
       "source": "telegram-user"
+    },
+    {
+      "id": "remind-trangmin-20260314-0813",
+      "title": "Nhắn @TrangMin uống nước",
+      "content": "Uống nước nhé 💧",
+      "target": "@TrangMin",
+      "type": "one-time-message",
+      "start_vn": "2026-03-14T15:13:00+07:00",
+      "start_utc": "2026-03-14T08:13:00Z",
+      "status": "active",
+      "source": "telegram-user"
     }
   ]
 }
