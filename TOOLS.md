@@ -54,3 +54,5 @@
 - **Sếp Telegram ID**: `882968821`
 - **Telegram target**: `telegram:882968821` (dùng trong cron jobs để gửi tin nhắn)
 - **Bot ID**: `8755389014`
+- **TrangMin Telegram ID**: `1077372918`
+- **Quy tắc gửi tin Telegram**: nếu user đã paired/chat với Tôm, ưu tiên gửi bằng **chat ID số** (ví dụ `telegram:1077372918`), không dựa vào username `@...` vì có thể resolve thất bại.
