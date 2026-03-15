@@ -82,3 +82,4 @@
 - 2026-03-15 02:36 UTC (09:36 GMT+7) — Facebook Tý Tech — Đổi avatar chính thức sang bản friendly owner artwork — Photo ID: 122099932509074170
 - 2026-03-15 02:36 UTC (09:36 GMT+7) — Facebook Tý Tech — Đổi cover chính thức theo owner artwork neon tone — Photo ID: 122099932407074170
 - 2026-03-15 02:52 UTC (09:52 GMT+7) — Facebook Tý Tech — Cập nhật page info (`about`, `description`, `website`) để định vị rõ chủ đề AI/IT/DevOps/automation — ✅ Done
+- 2026-03-15 02:52 UTC (09:52 GMT+7) — Facebook Tý Tech — Đăng bài intro chuẩn để dùng làm bài ghim mở đầu — Post ID: 1012410591957125_122099943441074170
