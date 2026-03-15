@@ -78,3 +78,6 @@
 - 2026-03-15 00:40 UTC (07:40 GMT+7) — Facebook Tý Tech — Đăng bài public: "3 cách dân IT dùng AI thật sự hiệu quả mỗi ngày" — Post ID: 1012410591957125_122099859003074170
 - 2026-03-15 00:41 UTC (07:41 GMT+7) — Facebook Tý Tech — Lên lịch bài 12:00 GMT+7: "Bug không tự sinh ra..." — Post ID: 1012410591957125_122099859213074170
 - 2026-03-15 00:41 UTC (07:41 GMT+7) — Facebook Tý Tech — Lên lịch bài 19:30 GMT+7: "5 thói quen nhỏ giúp dev bớt rối..." — Post ID: 1012410591957125_122099859237074170
+
+- 2026-03-15 02:36 UTC (09:36 GMT+7) — Facebook Tý Tech — Đổi avatar chính thức sang bản friendly owner artwork — Photo ID: 122099932509074170
+- 2026-03-15 02:36 UTC (09:36 GMT+7) — Facebook Tý Tech — Đổi cover chính thức theo owner artwork neon tone — Photo ID: 122099932407074170
