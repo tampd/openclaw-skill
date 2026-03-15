@@ -22,3 +22,9 @@
 - **Nguyên nhân**: `message` tool không phải lúc nào cũng resolve được username sang numeric chat ID.
 - **Cách fix**: Tra session/log/BOOT để lấy Telegram ID số của người đó, rồi gửi bằng dạng `telegram:1077372918`.
 - **Quy tắc**: Với user Telegram đã biết/đã paired, ưu tiên lưu và dùng **chat ID số**, không mặc định dùng username.
+
+### 2026-03-15 — Lesson #004
+- **Lỗi**: Tái dùng ảnh từ bài blog trước sang bài mới cho tiện.
+- **Nguyên nhân**: Ưu tiên tốc độ publish hơn tính độc lập của asset cho từng bài.
+- **Cách fix**: Mỗi bài phải có bộ ảnh riêng: đi kiếm ảnh khác, copy về bộ mới, hoặc tự thiết kế; không reuse ảnh bài cũ nếu chưa được Sếp duyệt rõ.
+- **Quy tắc**: Publish blog = nội dung riêng + ảnh riêng. Thiếu ảnh riêng thì không publish.

@@ -28,3 +28,4 @@
 - URL: https://blog.chaiko.info/nemoclaw-vs-openclaw/
 - Status: publish
 - Post ID: 153
+- 2026-03-15 05:52 UTC — Corrective pass: thay toàn bộ ảnh của post 153 bằng bộ ảnh riêng mới (media IDs 157,158,159), không reuse ảnh từ post 148 nữa; set featured image mới cho bài `NemoClaw vs OpenClaw`.

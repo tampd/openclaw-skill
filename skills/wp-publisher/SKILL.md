@@ -91,11 +91,13 @@ Category Map (tham khảo nhanh):
 #### Bước 5: Chuẩn bị ảnh (BẮT BUỘC)
 - Tối thiểu **3 ảnh dùng lại được** cho mỗi bài publish
 - Tối thiểu **1 featured image**
+- **Mỗi bài phải có bộ ảnh riêng**; không được tái dùng ảnh/featured image từ bài trước chỉ vì tiện, trừ khi Sếp phê duyệt rõ là được reuse
 - Mỗi ảnh phải có:
   - file local hoặc URL nguồn rõ ràng
   - alt text tiếng Việt
   - ghi chú license/nguồn nếu cần
 - Upload ảnh trước hoặc cùng lúc với bài; set featured image trước khi chốt publish
+- Với bài mới, phải kiếm ảnh mới / copy về bộ ảnh riêng / tự thiết kế; **không lấy nguyên bộ ảnh từ bài cũ sang**
 - Nếu không tìm được ảnh hợp lệ → **không publish**, chỉ tạo draft hoặc báo Sếp
 
 #### Bước 6: Đăng bài

@@ -225,6 +225,7 @@ curl -s "https://api.github.com/search/repositories?q=[keyword]&sort=stars" | py
 - Loại: screenshot, code diagram, architecture diagram, benchmark chart, hoặc ảnh minh họa dùng lại được phù hợp chủ đề
 - Alt text: mô tả kỹ thuật cụ thể
 - Nếu chưa đủ số ảnh tối thiểu → không được chuyển sang publish
+- Bài mới phải có bộ ảnh riêng; không tái dùng nguyên ảnh của bài trước nếu chưa được duyệt rõ
 
 ### Output Format (`/seo-tech`)
 ```markdown
