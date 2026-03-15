@@ -83,3 +83,5 @@
 - 2026-03-15 02:36 UTC (09:36 GMT+7) — Facebook Tý Tech — Đổi cover chính thức theo owner artwork neon tone — Photo ID: 122099932407074170
 - 2026-03-15 02:52 UTC (09:52 GMT+7) — Facebook Tý Tech — Cập nhật page info (`about`, `description`, `website`) để định vị rõ chủ đề AI/IT/DevOps/automation — ✅ Done
 - 2026-03-15 02:52 UTC (09:52 GMT+7) — Facebook Tý Tech — Đăng bài intro chuẩn để dùng làm bài ghim mở đầu — Post ID: 1012410591957125_122099943441074170
+- 2026-03-15 03:10 UTC (10:10 GMT+7) — Blog Chaiko — Cập nhật bài MCP thêm CTA liên kết sang fanpage Tý Tech — Post ID: 140
+- 2026-03-15 03:11 UTC (10:11 GMT+7) — OpenClaw Cron — Thêm 3 job tự động viết/publish bài SEO cho blog vào Thứ 2/4/6 09:00 GMT+7 — IDs: blog-seo-mon, blog-seo-wed, blog-seo-fri
