@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.11",
+    "lastTouchedAt": "2026-03-14T07:58:44.661Z"
+  },
+  "env": {},
+  "auth": {
+    "profiles": {
+      "openai-codex:default": {
+        "provider": "openai-codex",
+        "mode": "oauth"
+      },
+      "openai-codex:gptinfo": {
+        "provider": "openai-codex",
+        "mode": "oauth"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openai-codex/gpt-5.4",
+        "fallbacks": [
+          "google-vertex/gemini-2.5-flash"
+        ]
+      },
+      "models": {
+        "google-vertex/gemini-2.5-flash": {},
+        "openai-codex/gpt-5.4": {},
+        "openai-codex/gpt-4o": {},
+        "google-vertex/gemini-2.5-pro": {}
+      },
+      "workspace": "/root/openclaw/workspace",
+      "memorySearch": {
+        "sources": [
+          "memory",
+          "sessions"
+        ],
+        "provider": "gemini",
+        "model": "gemini-embedding-2-preview"
+      },
+      "compaction": {
+        "mode": "default"
+      }
+    }
+  },
+  "messages": {
+    "tts": {
+      "auto": "off",
+      "edge": {
+        "enabled": true,
+        "voice": "vi-VN-HoaiMyNeural",
+        "lang": "vi-VN"
+      }
+    }
+  },
+  "tools": {
+    "profile": "full"
+  },
+
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "REDACTED_BOT_TOKEN",
+      "groupPolicy": "allowlist",
+      "streaming": "partial"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "REDACTED_GATEWAY_TOKEN"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "rm -rf /",
+        "rm -rf /*",
+        "dd if=",
+        "mkfs",
+        "shutdown",
+        "reboot",
+        "passwd",
+        "chmod 777",
+        "curl | sh",
+        "curl | bash",
+        "wget | sh",
+        "wget | bash",
+        "> /dev/sda",
+        ":(){ :|:& };:",
+        "iptables -F",
+        "systemctl disable",
+        "userdel",
+        "groupdel",
+        "crontab -r",
+        "kill -9 1",
+        "env | nc"
+      ]
+    }
+  }
+}

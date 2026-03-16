@@ -1,0 +1,78 @@
+<p><strong>OpenAI Agents SDK hỗ trợ MCP đang là một tín hiệu lớn cho hệ sinh thái AI agent: developer không còn phải nối từng API theo kiểu thủ công nữa, mà có thể gắn agent với công cụ và nguồn dữ liệu theo một chuẩn chung.</strong></p>
+
+<p>Nếu anh em đã đọc bài <a href="https://blog.chaiko.info/mcp-la-gi-vi-sao-2026-la-nam-bung-no-ai-coding-agents/" target="_blank" rel="noopener">MCP là gì? Vì sao 2026 là năm bùng nổ AI coding agents</a>, thì bước đi mới của OpenAI cho thấy MCP không còn là khái niệm đẹp trên slide. Nó đang đi vào SDK thật, workflow thật, và quan trọng hơn là vào các bài toán mà team kỹ thuật có thể triển khai ngay.</p>
+
+<h2>OpenAI Agents SDK hỗ trợ MCP nghĩa là gì?</h2>
+<p>Theo tài liệu chính thức của OpenAI Agents SDK, MCP (Model Context Protocol) là cách chuẩn hóa việc đưa tool và context vào agent. Thay vì mỗi ứng dụng tự nghĩ ra một kiểu gọi tool riêng, MCP đóng vai trò như một “cổng USB-C cho AI” — cùng một chuẩn, nhiều công cụ có thể cắm vào được.</p>
+
+<p>Điểm đáng chú ý là SDK này hỗ trợ nhiều kiểu kết nối MCP khác nhau:</p>
+<ul>
+  <li><strong>Hosted MCP tool</strong>: model gọi server công khai thông qua hạ tầng Responses API.</li>
+  <li><strong>Streamable HTTP</strong>: phù hợp khi anh em tự chạy server và muốn giao tiếp qua HTTP.</li>
+  <li><strong>HTTP + SSE</strong>: hữu ích cho các hệ thống đang dùng Server-Sent Events.</li>
+  <li><strong>stdio</strong>: cực hợp cho tool local, script nội bộ, hoặc quy trình chạy trong máy dev / VPS.</li>
+</ul>
+
+<p><img src="__IMG1__" alt="OpenAI Agents SDK MCP minh họa lập trình viên làm việc với tool và context" width="1200" /></p>
+
+<h2>Vì sao chuyện này quan trọng với developer Python?</h2>
+<p>Trước đây, khi muốn làm một agent “biết làm việc”, phần khó không chỉ nằm ở model. Cái khó là nối model với file hệ thống, HTTP API, database, hay các workflow nội bộ một cách ổn định và có kiểm soát. Đội dev thường phải tự viết wrapper, tự định nghĩa schema, tự xử lý lỗi, tự nghĩ cơ chế approval. Làm được, nhưng rất dễ thành mớ dây điện chắp vá.</p>
+
+<p>Khi OpenAI Agents SDK hỗ trợ MCP, một phần lớn công việc glue code đó được chuẩn hóa. Team Python có thể tái sử dụng MCP server sẵn có, hoặc xây một server mới rồi dùng lại cho nhiều agent khác nhau. Điều này đặc biệt đáng giá trong ba tình huống:</p>
+<ul>
+  <li><strong>Agent nội bộ cho doanh nghiệp</strong>: nối CRM, ticket, tài liệu, database mà không phải viết connector riêng cho từng model.</li>
+  <li><strong>AI coding workflow</strong>: cho agent truy cập file, lệnh, docs, repo hoặc tool dev theo chuẩn thống nhất.</li>
+  <li><strong>Ops / automation</strong>: gom nhiều nguồn dữ liệu vận hành vào cùng một lớp giao tiếp dễ kiểm soát.</li>
+</ul>
+
+<h2>MCP khác gì so với kiểu tích hợp tool cũ?</h2>
+<p>Cách cũ thường là: ứng dụng A viết tool theo format A, ứng dụng B lại cần format B. Nếu chuyển model, đổi framework, hay thay agent runtime, team gần như phải viết lại. MCP giảm phần chi phí này bằng cách tách <em>tool server</em> ra khỏi <em>agent client</em>.</p>
+
+<p>Nói dễ hiểu: thay vì mỗi nhà cắm điện một loại ổ khác nhau, MCP cố gắng biến phần “ổ cắm” thành chuẩn chung. Nhờ vậy, công cụ nào đã nói được MCP thì có thể tái dùng ở nhiều nơi hơn.</p>
+
+<p><img src="__IMG2__" alt="Sơ đồ AI và giao thức MCP giúp kết nối nhiều công cụ theo chuẩn chung" width="1200" /></p>
+
+<h2>Tác động thực tế: AI agent bớt demo, tiến gần production hơn</h2>
+<p>Lý do bài cập nhật này đáng chú ý không phải vì thêm một buzzword mới, mà vì nó kéo AI agent gần hơn với môi trường production. Trong tài liệu SDK, OpenAI đã nói rõ cả câu chuyện <strong>tool filtering</strong>, <strong>caching</strong>, <strong>tracing</strong> và <strong>approval</strong>. Đây là các mảnh ghép mà hệ thống demo thường bỏ qua, nhưng sản phẩm thật thì không thể thiếu.</p>
+
+<p>Ví dụ, một agent có quyền đọc repo thì chưa chắc nên có quyền deploy. Một tool có thể an toàn trong local dev nhưng nguy hiểm trong môi trường live. Việc có policy approval rõ ràng giúp team không biến agent thành “thực tập sinh root quyền cao”.</p>
+
+<p>Nếu anh em đang theo dõi hướng AI agent cho hạ tầng riêng, có thể đọc thêm bài <a href="https://blog.chaiko.info/nvidia-nemoclaw-ai-agent/" target="_blank" rel="noopener">NVIDIA NemoClaw là gì?</a> và bài <a href="https://blog.chaiko.info/nemoclaw-vs-openclaw/" target="_blank" rel="noopener">NemoClaw vs OpenClaw</a> để thấy hệ sinh thái agent hiện nay đang cạnh tranh ở đúng chỗ: kết nối tool, runtime, bảo mật và khả năng vận hành thực tế.</p>
+
+<h2>Những điểm cần cẩn thận trước khi lao vào dùng MCP</h2>
+<p>MCP không tự động làm mọi thứ an toàn hơn. Nó chỉ giúp chuẩn hóa bề mặt tích hợp. Rủi ro vẫn còn, nhất là khi agent có quyền truy cập dữ liệu nội bộ hoặc gọi tool tạo side effect.</p>
+<ul>
+  <li><strong>Phân quyền sai</strong>: cho agent nhìn quá nhiều hoặc làm quá nhiều.</li>
+  <li><strong>Thiếu approval</strong>: tool nhạy cảm bị gọi tự động.</li>
+  <li><strong>Schema lỏng</strong>: model hiểu nhầm input/output và hành xử ngoài ý muốn.</li>
+  <li><strong>Tracing yếu</strong>: khi có lỗi thì không biết agent gọi gì, lúc nào, với tham số nào.</li>
+</ul>
+
+<p>Vì vậy, nếu team định áp dụng MCP, đừng chỉ nhìn chuyện “kết nối được chưa”. Hãy nhìn thêm ba câu hỏi khó hơn: <strong>giới hạn quyền ra sao</strong>, <strong>ai phê duyệt hành động nhạy cảm</strong>, và <strong>log để điều tra như thế nào</strong>.</p>
+
+<p><img src="__IMG3__" alt="Dashboard theo dõi tool gọi từ AI agent trong môi trường vận hành" width="1200" /></p>
+
+<h2>Khi nào nên dùng OpenAI Agents SDK + MCP?</h2>
+<p>Theo tôi, combo này đáng thử khi anh em thuộc một trong ba nhóm sau:</p>
+<ul>
+  <li>Đã có nhiều tool nội bộ và muốn để agent gọi lại theo chuẩn.</li>
+  <li>Đang làm sản phẩm AI agent bằng Python và muốn giảm công viết glue code.</li>
+  <li>Cần một lộ trình từ prototype lên production, trong đó approval và tracing có chỗ đứng rõ ràng.</li>
+</ul>
+
+<p>Nếu chỉ làm chatbot hỏi đáp đơn giản, chưa chắc MCP là thứ phải đụng ngay. Nhưng nếu mục tiêu là <strong>agent biết dùng tool thật</strong>, <strong>lấy context thật</strong>, và <strong>chạy workflow thật</strong>, thì MCP đang dần trở thành lớp hạ tầng rất đáng để học sớm.</p>
+
+<h2>Kết luận</h2>
+<p>OpenAI Agents SDK hỗ trợ MCP không phải tin kiểu “ồn ào một hôm rồi thôi”. Nó cho thấy hệ sinh thái agent đang dịch chuyển từ các integration riêng lẻ sang một lớp chuẩn hóa có thể tái sử dụng. Với developer Python, lợi ích lớn nhất là giảm công nối tool, tăng khả năng tái dùng, và đưa agent tiến gần môi trường production hơn.</p>
+
+<p>Ngắn gọn: nếu anh em đang xây AI agent nghiêm túc, đây là lúc nên theo dõi MCP không phải như trend, mà như một phần của kiến trúc hệ thống. Theo dõi Tý Tech trên Facebook để xem bản rút gọn và update nhanh mỗi ngày.</p>
+
+<h2>FAQ</h2>
+<h3>MCP có phải chỉ dành cho OpenAI không?</h3>
+<p>Không. MCP là chuẩn mở, được nhiều công cụ và nền tảng AI hỗ trợ, không bị khóa vào riêng một vendor.</p>
+
+<h3>OpenAI Agents SDK hỗ trợ MCP có giúp build agent nhanh hơn không?</h3>
+<p>Có, đặc biệt ở phần tích hợp tool và context. Team sẽ bớt phải tự viết cầu nối cho từng hệ thống.</p>
+
+<h3>Dùng MCP rồi có an toàn tuyệt đối không?</h3>
+<p>Không. MCP giúp chuẩn hóa tích hợp, còn an toàn hay không vẫn phụ thuộc vào phân quyền, approval, schema và tracing của hệ thống.</p>

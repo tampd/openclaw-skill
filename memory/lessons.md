@@ -28,3 +28,9 @@
 - **Nguyên nhân**: Ưu tiên tốc độ publish hơn tính độc lập của asset cho từng bài.
 - **Cách fix**: Mỗi bài phải có bộ ảnh riêng: đi kiếm ảnh khác, copy về bộ mới, hoặc tự thiết kế; không reuse ảnh bài cũ nếu chưa được Sếp duyệt rõ.
 - **Quy tắc**: Publish blog = nội dung riêng + ảnh riêng. Thiếu ảnh riêng thì không publish.
+
+### 2026-03-15 — Lesson #005
+- **Lỗi**: OpenClaw crash loop 721 lần, Tôm không phản hồi Telegram cả buổi.
+- **Nguyên nhân**: File `openclaw.json` chứa 2 key không hợp lệ: `agents.sandbox` và `mcpServers` (Tavily). OpenClaw validation bắt lỗi → exit code 1 → systemd restart liên tục.
+- **Cách fix**: Antigravity xóa 2 key invalid, restart service → Tôm online lại ngay.
+- **Quy tắc**: KHÔNG thêm key vào `openclaw.json` nếu chưa chắc key đó được version hiện tại hỗ trợ. Luôn chạy `openclaw doctor` sau khi sửa config. Nếu cần MCP servers, kiểm tra docs xem format đúng.
