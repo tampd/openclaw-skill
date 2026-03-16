@@ -31,7 +31,7 @@
 |---|---|---|---|---|
 | 🌅 7h45 | 🤖 Trend | Tin nhanh AI/tech đáng chú ý đầu tuần, viết lại theo góc nhìn dễ đọc | 📝 Planned | — |
 | ☀️ 12h15 | 😂 Humor | Monday meme: đi làm với 12 tab công việc và 3% pin não | 📝 Planned | — |
-| 🌙 20h00 | 🔥 Work-life | Có nên luôn online sau giờ làm? Góc nhìn thực tế của dân IT | 📝 Planned | — |
+| 🌙 20h00 | 🔥 Work-life | Có nên luôn online sau giờ làm? Góc nhìn thực tế của dân IT | ✅ Posted | 1012410591957125_122101534083074170 |
 
 ## Thứ 3 — 17/03
 | Slot | Pillar | Chủ đề | Status | Post ID |
@@ -85,3 +85,5 @@
 - 2026-03-15 02:52 UTC (09:52 GMT+7) — Facebook Tý Tech — Đăng bài intro chuẩn để dùng làm bài ghim mở đầu — Post ID: 1012410591957125_122099943441074170
 - 2026-03-15 03:10 UTC (10:10 GMT+7) — Blog Chaiko — Cập nhật bài MCP thêm CTA liên kết sang fanpage Tý Tech — Post ID: 140
 - 2026-03-15 03:11 UTC (10:11 GMT+7) — OpenClaw Cron — Thêm 3 job tự động viết/publish bài SEO cho blog vào Thứ 2/4/6 09:00 GMT+7 — IDs: blog-seo-mon, blog-seo-wed, blog-seo-fri
+- 2026-03-16 16:08 UTC (23:08 GMT+7) — Facebook Tý Tech — Đăng bài public có ảnh: "Có nên luôn online sau giờ làm không?" — Post ID: 1012410591957125_122101534083074170
+- 2026-03-16 16:07 UTC — Đối chiếu các Post ID cũ (`122099517981074170`, `122099859003074170`, `122099859213074170`, `122099859237074170`, `122099943441074170`) đều trả về lỗi Graph API `(#10) Object does not exist, cannot be loaded due to missing permission...`; feed hiện tại không còn thấy các post này.
