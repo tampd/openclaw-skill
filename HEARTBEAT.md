@@ -15,6 +15,10 @@
 
 ## 4. Fanpage Tý Tech (nhiều lần/ngày)
 - Kiểm tra comment/inbox mới của fanpage Tý Tech
+- Dùng đúng Graph API query:
+  - Feed: `/feed?fields=message,created_time,comments{from,message,created_time,id}.limit(5)&limit=5`
+  - Inbox: `/conversations?fields=updated_time,participants,messages{message,from,created_time}.limit(5)&limit=5`
+- Nếu query lỗi hoặc permission/token fail → báo ngay cho user lỗi thực tế, KHÔNG lặp lại cùng một lệnh lỗi ở heartbeat kế tiếp nếu chưa có thay đổi.
 - Nếu có comment hợp lệ → ưu tiên trả lời sớm, ngắn gọn, đúng tone page
 - Nếu có comment hay → ghi nhận để tái sử dụng làm ý tưởng content
 - Nếu phát hiện spam/độc hại → báo user khi cần, tránh tranh cãi

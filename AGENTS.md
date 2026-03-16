@@ -213,6 +213,7 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - Sau khi làm xong, phải tự kiểm tra kết quả thực tế (output lệnh, API response, diff, link, feed, screenshot hoặc bằng chứng tương đương) rồi mới báo cáo.
 - Không được ghi log/memory như thể đã xong nếu chưa verify thực tế.
 - Báo cáo phải theo mẫu: đã làm gì → kiểm tra ra sao → kết quả thực tế là gì.
+- Nếu trong lúc làm phát hiện lỗi hệ thống, token, permission, scheduler, heartbeat, hoặc quy trình có thể làm trễ việc, phải báo ngay cho Sếp để xin ý kiến sửa; không được âm thầm bỏ qua.
 
 ## Make It Yours
 
