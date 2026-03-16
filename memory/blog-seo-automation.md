@@ -2,6 +2,20 @@
 
 > Log các lần cron tự tạo bài cho blog.chaiko.info
 
+## 2026-03-16 01:48 UTC
+- Topic: OpenAI Agents SDK hỗ trợ MCP
+- Keyword: openai agents sdk mcp
+- Slug: openai-agents-sdk-mcp
+- Sources:
+  - https://openai.github.io/openai-agents-python/mcp/
+  - https://modelcontextprotocol.io/introduction
+  - /usr/lib/node_modules/openclaw/docs/index.md
+- Images: WordPress media 176, 177, 178 (Wikimedia Commons)
+- URL: https://blog.chaiko.info/openai-agents-sdk-mcp/
+- Status: publish
+- Post ID: 179
+
+
 ## 2026-03-15 05:33 UTC
 - Topic: NVIDIA NemoClaw / Nemotron 3 Super
 - Keyword: nemoclaw
