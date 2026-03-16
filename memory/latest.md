@@ -1,7 +1,7 @@
 # Latest Memory
 
-- 2026-03-15: Đã vận hành fanpage Tý Tech theo lịch, đăng bài sáng và lên lịch các slot còn lại trong ngày.
-- Đã đổi avatar/cover, cập nhật mô tả fanpage và tạo liên kết hai chiều giữa fanpage với blog.chaiko.info.
-- Đã publish bài NVIDIA NemoClaw (post 148), sau đó sửa lại tone cho dễ hiểu và bổ sung 3 ảnh + featured image.
-- Đã publish bài `NemoClaw vs OpenClaw` (post 153) với bộ ảnh riêng mới sau khi bị nhắc lỗi reuse ảnh.
-- Đã ghi thêm lessons về: không reuse ảnh bài cũ và phải cẩn thận khi sửa config OpenClaw.
+- 2026-03-16: Đã phát hiện và sửa các cron bị treo bằng cách đổi prompt sang path tuyệt đối cho `morning-briefing` và `weekly-memory-cleanup`.
+- Đã xóa cờ `runningAtMs` khỏi các job bị kẹt trong `/root/openclaw/.openclaw/cron/jobs.json`.
+- Đã chạy lại `openclaw memory index --force` thành công.
+- Hệ thống hiện còn cảnh báo cấu hình Telegram group: `groupPolicy=allowlist` nhưng chưa có `groupAllowFrom`.
+- Blog SEO slot sáng thứ 2 đã publish bài: `OpenAI Agents SDK hỗ trợ MCP: Developer Python được lợi gì?`.
