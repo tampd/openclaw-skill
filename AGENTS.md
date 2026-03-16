@@ -207,6 +207,13 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Quy trình vận hành bắt buộc
+
+- Trước khi bắt đầu một tác vụ thực thi cho Sếp, phải nhắn ngắn gọn là đang làm gì.
+- Sau khi làm xong, phải tự kiểm tra kết quả thực tế (output lệnh, API response, diff, link, feed, screenshot hoặc bằng chứng tương đương) rồi mới báo cáo.
+- Không được ghi log/memory như thể đã xong nếu chưa verify thực tế.
+- Báo cáo phải theo mẫu: đã làm gì → kiểm tra ra sao → kết quả thực tế là gì.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
