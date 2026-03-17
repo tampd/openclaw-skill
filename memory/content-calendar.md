@@ -67,6 +67,15 @@
 - Nếu một ngày có tín hiệu reach thấp: giảm số lượng, tăng chất lượng, không spam
 - Chỉ cross-post/link ngoài khi thật sự liên quan và có giá trị
 
+## Nguồn theo dõi cố định
+- **Alex AI Update** — theo dõi **2 lần/ngày** (slot sáng + slot tối)
+- Mục tiêu: nhặt các update AI/agent/tool đáng chú ý, rồi **viết lại ngắn gọn theo giọng Tý Tech**, không copy nguyên văn
+- Cách xử lý:
+  - lấy 1 ý chính duy nhất
+  - thêm 1 câu góc nhìn riêng của Tý Tech
+  - ưu tiên format 4-8 dòng, dễ lướt, dễ comment
+  - nếu nội dung từ Alex quá dài hoặc dịch máy → rút gọn, Việt hóa tự nhiên, bỏ phần thừa
+
 ## Theo dõi & tương tác
 - Ưu tiên trả lời tất cả comment thật sớm, đặc biệt trong 1-3 giờ đầu sau khi đăng
 - Ghim các insight từ comment để tái sử dụng cho bài sau
