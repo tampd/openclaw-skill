@@ -49,8 +49,12 @@ Khi gặp lỗi mới:
   - `sessionTarget: "isolated"`
   - `payload.kind: "agentTurn"`
   - `delivery.mode: "announce"`
+- Mặc định áp dụng mô hình **2 lớp** cho bài đăng quan trọng:
+  1. **job chính** đăng bài + tự retry/sửa lỗi tối đa 3 vòng trong cùng lượt
+  2. **watchdog hậu kiểm** sau 10-20 phút để verify feed; nếu thiếu bài thì tự đăng bù và báo cáo
 - Sau khi sửa cron phải kiểm tra lại bằng cách đọc `~/.openclaw/cron/jobs.json` và xác nhận:
   - `sessionTarget = isolated`
   - có `payload`
   - có `delivery`
+  - các watchdog đã tồn tại
   - không còn `runningAtMs` treo cũ nếu vừa recover job.
