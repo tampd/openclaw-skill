@@ -42,3 +42,15 @@ Khi gặp lỗi mới:
 2. Sửa quy trình/HEARTBEAT/skill nếu xác định được nguyên nhân
 3. Báo anh Tâm ngắn gọn: lỗi gì, ảnh hưởng gì, đề xuất sửa gì
 4. Chỉ ghi là "đã xong" sau khi verify lại thành công
+
+## 7. Bài học cố định về cron đăng bài
+- Không cấu hình cron đăng bài quan trọng bằng kiểu cũ `prompt + target + sessionTarget: main`.
+- Nếu job cần tự chạy đúng giờ và gửi báo cáo về Telegram, dùng schema chuẩn:
+  - `sessionTarget: "isolated"`
+  - `payload.kind: "agentTurn"`
+  - `delivery.mode: "announce"`
+- Sau khi sửa cron phải kiểm tra lại bằng cách đọc `~/.openclaw/cron/jobs.json` và xác nhận:
+  - `sessionTarget = isolated`
+  - có `payload`
+  - có `delivery`
+  - không còn `runningAtMs` treo cũ nếu vừa recover job.
