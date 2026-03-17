@@ -38,6 +38,7 @@
 |---|---|---|---|---|
 | 🌅 7h30 | 💼 Tools | Bộ tool tối giản nhưng mạnh cho dev/ops/automation | ✅ Posted | 1012410591957125_122102004051074170 |
 | ☀️ 12h00 | 😂 Meme | Meme: works on my machine — câu thần chú quốc dân | 📝 Planned | — |
+| 🧪 Test 10h16 | 🔗 Link Preview | Bài test thật kiểm tra pipeline đăng + preview link blog xuất hiện đúng trên feed | ✅ Posted | 1012410591957125_122102011635074170 |
 | 🌙 19h30 | 🤖 AI | AI sẽ không thay dev, nhưng sẽ thay cách dev làm việc | 📝 Planned | — |
 
 ## Thứ 4 — 18/03
@@ -98,3 +99,7 @@
 - 2026-03-16 16:07 UTC — Đối chiếu các Post ID cũ (`122099517981074170`, `122099859003074170`, `122099859213074170`, `122099859237074170`, `122099943441074170`) đều trả về lỗi Graph API `(#10) Object does not exist, cannot be loaded due to missing permission...`; feed hiện tại không còn thấy các post này.
 - 2026-03-17 03:02 UTC (10:02 GMT+7) — Facebook Tý Tech — Đăng bù slot sáng: "Bộ tool tối giản nhưng mạnh cho dev/ops/automation" kèm link preview bài blog `openai-agents-sdk-mcp` — Post ID: 1012410591957125_122102004051074170 — https://www.facebook.com/122101530363074170/posts/122102004051074170
 - 2026-03-17 03:03 UTC — Verify feed Graph API thấy bài mới xuất hiện ở top feed cùng `permalink_url` và attachment kiểu `share` trỏ về blog.chaiko.info/openai-agents-sdk-mcp/
+- 2026-03-17 03:16 UTC (10:16 GMT+7) — Facebook Tý Tech — Đăng bài test thật kèm link preview blog `openai-agents-sdk-mcp` để kiểm tra pipeline feed — Post ID: 1012410591957125_122102011635074170 — https://www.facebook.com/122101530363074170/posts/122102011635074170
+- 2026-03-17 03:17 UTC — Verify Graph API: object `1012410591957125_122102011635074170` trả về `is_published=true`, `status_type=shared_story`, `permalink_url` hợp lệ và `attachments.data[0]` có `media_type=link`, `type=share`, `title=blog.chaiko.info`; feed hiện tại cũng thấy bài này ở top feed. Trạng thái thực tế: ✅ posted + preview hợp lệ.
+- 2026-03-17 03:42 UTC (10:42 GMT+7) — Facebook Tý Tech — Đăng bài public mô phỏng kiểu share uy tín từ ByteByteGo/Alex Xu về caching trong system design — Post ID: 1012410591957125_122102029473074170 — https://www.facebook.com/122101530363074170/posts/122102029473074170
+- 2026-03-17 03:43 UTC — Verify Graph API: bài `1012410591957125_122102029473074170` nằm top feed, `is_published=true`, `status_type=shared_story`, attachment `type=share`, title `EP 38: Where do we cache data?`; anonymous check bằng request không đăng nhập mở permalink trực tiếp trả `HTTP 200`, không redirect `/login`. Trạng thái thực tế: ✅ public đọc được.
