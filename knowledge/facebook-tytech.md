@@ -237,6 +237,13 @@ Bạn ở năm thứ mấy? Bài học lớn nhất là gì? 👇
 - Link về bài gốc nếu là nội dung tổng hợp
 - Thêm góc nhìn/nhận định riêng, KHÔNG chỉ share trống
 
+### Verify bắt buộc sau khi đăng
+- POST thành công chưa đủ; phải đọc lại feed để thấy bài xuất hiện thật.
+- Nếu là bài share link thì phải có preview hợp lệ (`type=share` hoặc `media_type=link`).
+- BẮT BUỘC thêm **anonymous visibility check**: mở `permalink_url` bằng request không đăng nhập.
+- Chỉ tính là `✅ Posted` khi URL bài **không bị redirect sang `/login`** và **không ra trang lỗi / không xem được nội dung**.
+- Nếu Graph API báo `is_published=true` nhưng anonymous check fail → coi là **chưa đạt**, phải retry bằng format bài khác hoặc báo lỗi thực tế.
+
 ---
 
 ## 💬 TƯƠNG TÁC & QUẢN LÝ
