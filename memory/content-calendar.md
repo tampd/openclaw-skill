@@ -69,13 +69,15 @@
 - Chỉ cross-post/link ngoài khi thật sự liên quan và có giá trị
 
 ## Nguồn theo dõi cố định
-- **Alex AI Update** — theo dõi **2 lần/ngày** (slot sáng + slot tối)
+- **Alex AI Update** — nguồn ưu tiên số 1: https://www.facebook.com/Alexaiupdate
+- Theo dõi **2 lần/ngày** (slot sáng 06:30 GMT+7 + slot tối 18:00 GMT+7)
 - Mục tiêu: nhặt các update AI/agent/tool đáng chú ý, rồi **viết lại ngắn gọn theo giọng Tý Tech**, không copy nguyên văn
 - Cách xử lý:
   - lấy 1 ý chính duy nhất
   - thêm 1 câu góc nhìn riêng của Tý Tech
   - ưu tiên format 4-8 dòng, dễ lướt, dễ comment
   - nếu nội dung từ Alex quá dài hoặc dịch máy → rút gọn, Việt hóa tự nhiên, bỏ phần thừa
+  - chỉ ghi `✅ Posted` khi bài qua đủ 3 lớp verify: feed thật, preview/media hợp lệ, và permalink mở ẩn danh không lỗi
 
 ## Theo dõi & tương tác
 - Ưu tiên trả lời tất cả comment thật sớm, đặc biệt trong 1-3 giờ đầu sau khi đăng

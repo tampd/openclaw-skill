@@ -3,6 +3,9 @@
 ## Mục tiêu
 Scan 2 lần/ngày để tìm content AI & vibe coding hay từ 100 influencers + 50 GitHub repos → soạn 2 bài share/ngày.
 
+> Nguồn ưu tiên số 1 hiện tại: **Alex AI Update** — https://www.facebook.com/Alexaiupdate
+> Khi scan phải kiểm tra nguồn này trước các nguồn influencer khác.
+
 ## Lịch scan
 
 | Scan | Giờ (GMT+7) | UTC | Mục đích |

@@ -18,6 +18,9 @@
 - Đọc lại feed:
   - `/feed?fields=id,message,created_time,permalink_url&limit=5`
 - Xác nhận post mới xuất hiện thật
+- Nếu là bài share, kiểm tra thêm preview/media hợp lệ
+- Chạy anonymous visibility check: mở `permalink_url` bằng request không đăng nhập
+- Chỉ ghi thành công nếu không bị redirect sang `/login` và không ra trang lỗi / không xem được nội dung
 - Ghi `Post ID`, trạng thái, link vào `memory/content-calendar.md`
 - Báo cáo thực tế cho anh Tâm
 
