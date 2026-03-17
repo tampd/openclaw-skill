@@ -36,7 +36,7 @@
 ## Thứ 3 — 17/03
 | Slot | Pillar | Chủ đề | Status | Post ID |
 |---|---|---|---|---|
-| 🌅 7h30 | 💼 Tools | Bộ tool tối giản nhưng mạnh cho dev/ops/automation | 📝 Planned | — |
+| 🌅 7h30 | 💼 Tools | Bộ tool tối giản nhưng mạnh cho dev/ops/automation | ✅ Posted | 1012410591957125_122102004051074170 |
 | ☀️ 12h00 | 😂 Meme | Meme: works on my machine — câu thần chú quốc dân | 📝 Planned | — |
 | 🌙 19h30 | 🤖 AI | AI sẽ không thay dev, nhưng sẽ thay cách dev làm việc | 📝 Planned | — |
 
@@ -96,3 +96,5 @@
 - 2026-03-15 03:11 UTC (10:11 GMT+7) — OpenClaw Cron — Thêm 3 job tự động viết/publish bài SEO cho blog vào Thứ 2/4/6 09:00 GMT+7 — IDs: blog-seo-mon, blog-seo-wed, blog-seo-fri
 - 2026-03-16 16:08 UTC (23:08 GMT+7) — Facebook Tý Tech — Đăng bài public có ảnh: "Có nên luôn online sau giờ làm không?" — Post ID: 1012410591957125_122101534083074170
 - 2026-03-16 16:07 UTC — Đối chiếu các Post ID cũ (`122099517981074170`, `122099859003074170`, `122099859213074170`, `122099859237074170`, `122099943441074170`) đều trả về lỗi Graph API `(#10) Object does not exist, cannot be loaded due to missing permission...`; feed hiện tại không còn thấy các post này.
+- 2026-03-17 03:02 UTC (10:02 GMT+7) — Facebook Tý Tech — Đăng bù slot sáng: "Bộ tool tối giản nhưng mạnh cho dev/ops/automation" kèm link preview bài blog `openai-agents-sdk-mcp` — Post ID: 1012410591957125_122102004051074170 — https://www.facebook.com/122101530363074170/posts/122102004051074170
+- 2026-03-17 03:03 UTC — Verify feed Graph API thấy bài mới xuất hiện ở top feed cùng `permalink_url` và attachment kiểu `share` trỏ về blog.chaiko.info/openai-agents-sdk-mcp/
