@@ -21,17 +21,30 @@ Kết nối Sếp với Google Workspace (Gmail, Calendar, Drive, Sheets, Docs).
 /root/openclaw/workspace/scripts/gog_wrapper.sh gmail send --to recipient@email.com --subject "Tiêu đề" --body "Nội dung"
 ```
 
-## 2. Calendar (Tạo Lịch)
+## 2. Calendar (Lịch)
 ```bash
 # Xem lịch hôm nay
-/root/openclaw/workspace/scripts/gog_wrapper.sh calendar events primary --from $(date -u +%Y-%m-%dT00:00:00Z) --to $(date -u +%Y-%m-%dT23:59:59Z)
+/root/openclaw/workspace/scripts/gog_wrapper.sh calendar events primary --today
 
-# Tạo lịch (Ví dụ tạo lịch: 09:00 - 10:00 ngày 15/03/2026)
-# NOTE: Luôn dùng format ISO 8601 kèm múi giờ +07:00
-/root/openclaw/workspace/scripts/gog_wrapper.sh calendar create primary --title "Họp team" --start "2026-03-15T09:00:00+07:00" --end "2026-03-15T10:00:00+07:00"
+# Xem lịch tuần này
+/root/openclaw/workspace/scripts/gog_wrapper.sh calendar events primary --week
 
-# Nếu có nhắc trước (ví dụ 2 ngày trước sự kiện = thêm options vào nội dung lịch hoặc description)
-# Cú pháp đầy đủ có thể xem bằng:
+# Xem lịch khoảng thời gian cụ thể
+/root/openclaw/workspace/scripts/gog_wrapper.sh calendar events primary --from "2026-03-17T00:00:00+07:00" --to "2026-03-17T23:59:59+07:00"
+
+# Tạo sự kiện (NOTE: dùng --summary, --from, --to — KHÔNG dùng --title, --start, --end)
+/root/openclaw/workspace/scripts/gog_wrapper.sh calendar create primary --summary "Họp team" --from "2026-03-15T09:00:00+07:00" --to "2026-03-15T10:00:00+07:00"
+
+# Tạo sự kiện + nhắc trước 30 phút + địa điểm
+/root/openclaw/workspace/scripts/gog_wrapper.sh calendar create primary --summary "Họp khách hàng" --from "2026-03-18T14:00:00+07:00" --to "2026-03-18T15:00:00+07:00" --reminder popup:30m --location "Phòng họp A"
+
+# Tìm sự kiện
+/root/openclaw/workspace/scripts/gog_wrapper.sh calendar search "họp" --from today --days 7
+
+# Xóa sự kiện (cần eventId — lấy từ events list --json)
+/root/openclaw/workspace/scripts/gog_wrapper.sh calendar delete primary <eventId> --force
+
+# Xem đầy đủ options:
 # /root/openclaw/workspace/scripts/gog_wrapper.sh calendar create --help
 ```
 

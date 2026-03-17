@@ -2,6 +2,26 @@
 
 > Log các lần cron tự tạo bài cho blog.chaiko.info
 
+## 2026-03-17 03:15 UTC
+- Topic: Bảo mật AI agent / rủi ro lỗ hổng do AI coding agents tạo ra
+- Keyword: bảo mật AI agent
+- Slug: bao-mat-ai-agent
+- Sources:
+  - https://www.helpnetsecurity.com/2026/03/13/claude-code-openai-codex-google-gemini-ai-coding-agent-security/
+- Images:
+  - Media 181 — https://commons.wikimedia.org/wiki/File:Computer_locked.jpg
+  - Media 182 — https://commons.wikimedia.org/wiki/File:Cybersecurity_Visuals_Challenge_2019_-_Rebecca_Wang.jpg
+  - Media 183 — https://commons.wikimedia.org/wiki/File:Artificial_intelligence_prompt_completion_by_dalle_mini.jpg
+- Internal links:
+  - https://blog.chaiko.info/openai-agents-sdk-mcp/
+  - https://blog.chaiko.info/nemoclaw-vs-openclaw/
+  - https://blog.chaiko.info/nvidia-nemoclaw-ai-agent/
+  - https://blog.chaiko.info/posts
+- URL: https://blog.chaiko.info/bao-mat-ai-agent/
+- Status: publish
+- Post ID: 184
+- Verify: GET /wp-json/wp/v2/posts/184 và lookup theo slug `bao-mat-ai-agent` đều trả về status `publish`
+
 ## 2026-03-16 01:48 UTC
 - Topic: OpenAI Agents SDK hỗ trợ MCP
 - Keyword: openai agents sdk mcp

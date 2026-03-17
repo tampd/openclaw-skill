@@ -37,7 +37,7 @@
 | Slot | Pillar | Chủ đề | Status | Post ID |
 |---|---|---|---|---|
 | 🌅 7h30 | 💼 Tools | Bộ tool tối giản nhưng mạnh cho dev/ops/automation | ✅ Posted | 1012410591957125_122102004051074170 |
-| ☀️ 12h00 | 😂 Meme | Meme: works on my machine — câu thần chú quốc dân | 📝 Planned | — |
+| ☀️ 12h00 | 😂 Meme | Meme: works on my machine — câu thần chú quốc dân | ✅ Posted (feed verified 12:30 GMT+7 watchdog) | 1012410591957125_122102090367074170 |
 | 🧪 Test 10h16 | 🔗 Link Preview | Bài test thật kiểm tra pipeline đăng + preview link blog xuất hiện đúng trên feed | ✅ Posted | 1012410591957125_122102011635074170 |
 | 🌙 19h30 | 🤖 AI | AI sẽ không thay dev, nhưng sẽ thay cách dev làm việc | 📝 Planned | — |
 
@@ -107,3 +107,7 @@
 - 2026-03-17 03:43 UTC — Verify Graph API: bài `1012410591957125_122102029473074170` nằm top feed, `is_published=true`, `status_type=shared_story`, attachment `type=share`, title `EP 38: Where do we cache data?`; anonymous check bằng request không đăng nhập mở permalink trực tiếp trả `HTTP 200`, không redirect `/login`. Trạng thái thực tế: ✅ public đọc được.
 - 2026-03-17 03:49 UTC (10:49 GMT+7) — Facebook Tý Tech — Đăng bài public mới bám flow Alex AI Update, share trực tiếp nguồn `https://www.facebook.com/Alexaiupdate` kèm phần viết lại ngắn theo giọng Tý Tech — Post ID: 1012410591957125_122102033967074170 — https://www.facebook.com/122101530363074170/posts/122102033967074170
 - 2026-03-17 03:50 UTC — Verify Graph API: bài `1012410591957125_122102033967074170` xuất hiện thật ở top feed, `status_type=mobile_status_update`, attachment `type=share`, title `Alex AI Update`; anonymous check bằng request không đăng nhập mở permalink trực tiếp trả `HTTP 200`, không redirect `/login`. Trạng thái thực tế: ✅ public đọc được.
+- 2026-03-17 05:16 UTC (12:16 GMT+7) — Facebook Tý Tech — Đăng slot trưa đúng chủ đề meme: "Works on my machine" kèm link preview `https://xkcd.com/303/` — Post ID: 1012410591957125_122102090367074170 — https://www.facebook.com/122101530363074170/posts/122102090367074170
+- 2026-03-17 05:17 UTC — Verify Graph API: object `1012410591957125_122102090367074170` trả về `is_published=true`, `status_type=shared_story`, `attachments.data[0]` có `media_type=link`, `type=share`, title `Compiling`; feed hiện tại thấy bài nằm top feed. Trạng thái feed/API: ✅ OK.
+- 2026-03-17 05:19 UTC — Verify anonymous permalink thất bại: mở `https://www.facebook.com/122101530363074170/posts/122102090367074170` bằng request không đăng nhập trả route lỗi `CometErrorRoot` / `privacy:true`; mở root page `https://www.facebook.com/1012410591957125` và `https://www.facebook.com/122101530363074170` đều bị redirect sang `/login`. Kết luận lỗi gốc hiện tại nằm ở mức public visibility của page/permalink khi logged-out, không phải riêng bài này hay media preview. Trạng thái thực tế cuối: ⚠️ feed đăng được nhưng anonymous visibility FAIL, chưa đạt tiêu chí public.
+- 2026-03-17 05:30 UTC — Noon watchdog verify lại bằng Graph API feed hiện tại: bài trưa `1012410591957125_122102090367074170` vẫn đang nằm top feed với `created_time=2026-03-17T05:16:42+0000`, `is_published=true`, attachment `type=share`, title `Compiling`. Kết luận watchdog: ✅ slot trưa đã xuất hiện thật trên feed, không cần đăng bù.
